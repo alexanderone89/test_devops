@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor for process test on python
+After=network.target
+[Service]
+Type=simple
+ExecStart=/mnt/c/users/Alex/PycharmProjects/test_devops/monitor.sh
+Restart=always
+[Install]
+WantedBy=multi-user.target
