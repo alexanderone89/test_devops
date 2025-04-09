@@ -11,4 +11,5 @@
 Для развертывания test.py и main.py необходим python версии 3.10 и Docker.
 
 sudo docker build --no-cache -t fastapi1 .
+<br>
 sudo docker run -p 8000:80 fastapi1
